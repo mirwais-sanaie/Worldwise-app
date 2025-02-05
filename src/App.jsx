@@ -7,6 +7,7 @@ import AppLayout from "./pages/AppLayout";
 import CityList from "./components/CityList";
 import CountryList from "./components/CountryList";
 import { CitiesContextPro } from "./hooks/CitiesContextPro";
+import City from "./components/City";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="app" element={<AppLayout />}>
           <Route index element={<Navigate to={"cities"} replace />} />
           <Route path="cities" element={<CityList />} />
+          <Route path="cities/:id" element={<City />} />
           <Route path="countries" element={<CountryList />} />
           <Route path="form" element={<Form />} />
         </Route>

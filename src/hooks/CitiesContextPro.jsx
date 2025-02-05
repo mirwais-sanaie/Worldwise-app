@@ -2,6 +2,8 @@ import { createContext, useContext, useEffect, useState } from "react";
 
 const CitiesContext = createContext();
 
+const BASE_URL = "http://localhost:4000";
+
 function CitiesContextPro({ children }) {
   const [cities, setCities] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -11,7 +13,7 @@ function CitiesContextPro({ children }) {
     async function getCities() {
       setLoading(true);
       try {
-        const res = await fetch(`http://localhost:4000/cities`);
+        const res = await fetch(`${BASE_URL}/cities`);
         const data = await res.json();
         setCities(data);
         console.log(data);
