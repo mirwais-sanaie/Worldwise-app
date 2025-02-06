@@ -1,4 +1,4 @@
-import { Form, Navigate, Route, Routes } from "react-router";
+import { Navigate, Route, Routes } from "react-router";
 import HomePage from "./pages/HomePage";
 import Product from "./pages/Product";
 import Pricing from "./pages/Pricing";
@@ -8,6 +8,7 @@ import CityList from "./components/CityList";
 import CountryList from "./components/CountryList";
 import { CitiesContextPro } from "./hooks/CitiesContextPro";
 import City from "./components/City";
+import Form from "./components/Form";
 
 function App() {
   return (
