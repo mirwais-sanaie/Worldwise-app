@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useCitiesContext } from "../hooks/CitiesContextPro";
+import { useCitiesContext } from "../contexts/CitiesContextPro";
 import styles from "./City.module.css";
 import { useParams } from "react-router";
 import ButtonBack from "./ButtonBack";

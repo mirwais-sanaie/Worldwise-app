@@ -1,4 +1,4 @@
-import { useCitiesContext } from "../hooks/CitiesContextPro";
+import { useCitiesContext } from "../contexts/CitiesContextPro";
 import styles from "./CountryList.module.css";
 import Message from "./Message";
 import CountryItem from "./CountryItem";

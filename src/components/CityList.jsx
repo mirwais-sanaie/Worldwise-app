@@ -1,4 +1,4 @@
-import { useCitiesContext } from "../hooks/CitiesContextPro";
+import { useCitiesContext } from "../contexts/CitiesContextPro";
 import styles from "./CityList.module.css";
 import Spinner from "./Spinner";
 import Message from "./Message";
