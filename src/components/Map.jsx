@@ -6,7 +6,6 @@ import {
   TileLayer,
   useMap,
   useMapEvent,
-  useMapEvents,
 } from "react-leaflet";
 import styles from "./Map.module.css";
 import { useGeolocation } from "../hooks/useGeoLocation";
@@ -17,8 +16,7 @@ import { useUrl } from "../hooks/useUrl";
 
 function Map() {
   const { cities } = useCitiesContext();
-  const [mapPosition, setMapPoition] = useState([37, -9.1]);
-  const navigate = useNavigate();
+  const [mapPosition, setMapPoition] = useState([43, -7]);
   const {
     isLoading: isLoadingPos,
     position: locPostion,
@@ -27,15 +25,6 @@ function Map() {
   } = useGeolocation();
 
   const [mapLat, mapLng] = useUrl();
-
-  function HandleClick() {
-    useMapEvents({
-      click() {
-        navigate("form");
-      },
-    });
-    return null;
-  }
 
   useEffect(
     function () {
@@ -84,7 +73,6 @@ function Map() {
           </Marker>
         ))}
 
-        <HandleClick />
         <ChangeCenter position={mapPosition} />
         <DetectClick />
       </MapContainer>
