@@ -7,18 +7,25 @@ import Spinner from "./Spinner";
 function CountryList() {
   const { cities, loading } = useCitiesContext();
 
+  // Show spinner while loading
   if (loading) return <Spinner />;
 
-  if (!cities?.length)
-    return <Message message={`Add your first city by clicking on the map`} />;
+  // Show message if there are no cities
+  if (!cities || cities.length === 0) {
+    return <Message message="Add your first city by clicking on the map" />;
+  }
 
+  // Get unique countries from the cities list
   const countries = cities.reduce((arr, city) => {
-    console.log(arr);
-    if (!arr.map((el) => el.country).includes(city.country)) {
-      return [...arr, { country: city.country, emoji: city.emoji }];
-    } else {
-      return arr;
+    // Check if the country is already in the array
+    if (!arr.some((el) => el.countryName === city.countryName)) {
+      // Add the country to the array
+      return [
+        ...arr,
+        { countryName: city.countryName, emoji: city.emoji, id: city.id },
+      ];
     }
+    return arr;
   }, []);
 
   return (

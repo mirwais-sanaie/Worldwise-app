@@ -1,249 +1,183 @@
 {
   "cities": [
     {
-      "id": "0966",
-      "cityName": "Navia de Suarna",
+      "id": "218a",
+      "cityName": "Hun",
       "country": {
-        "latitude": 43.020490786950774,
+        "latitude": 26.610500233529038,
         "lookupSource": "coordinates",
-        "longitude": -6.947548769857945,
+        "longitude": 18.058797042284773,
         "localityLanguageRequested": "en",
-        "continent": "Europe",
-        "continentCode": "EU",
-        "countryName": "Spain",
-        "countryCode": "ES",
-        "principalSubdivision": "Galicia",
-        "principalSubdivisionCode": "ES-GA",
-        "city": "Navia de Suarna",
-        "locality": "Navia de Suarna",
+        "continent": "Africa",
+        "continentCode": "AF",
+        "countryName": "Libya",
+        "countryCode": "LY",
+        "principalSubdivision": "Al Jufrah",
+        "principalSubdivisionCode": "LY-JU",
+        "city": "Hun",
+        "locality": "Hun",
         "postcode": "",
-        "plusCode": "8CMM23C2+5X",
+        "plusCode": "7FRWJ365+6G",
         "localityInfo": {
           "administrative": [
             {
-              "name": "Spain",
-              "description": "constitutional monarchy in Southwest Europe",
-              "isoName": "Spain",
-              "order": 2,
-              "adminLevel": 2,
-              "isoCode": "ES",
-              "wikidataId": "Q29",
-              "geonameId": 2510769
-            },
-            {
-              "name": "Galicia",
-              "description": "autonomous community of Spain",
-              "isoName": "Galicia",
+              "name": "Libya",
+              "description": "sovereign state in North Africa",
+              "isoName": "Libya",
               "order": 5,
-              "adminLevel": 4,
-              "isoCode": "ES-GA",
-              "wikidataId": "Q3908",
-              "geonameId": 3336902
+              "adminLevel": 2,
+              "isoCode": "LY",
+              "wikidataId": "Q1016",
+              "geonameId": 2215636
             },
             {
-              "name": "North West",
-              "order": 6,
-              "adminLevel": 3
-            },
-            {
-              "name": "Provincia de Lugo",
-              "description": "province in Galicia, Spain",
-              "isoName": "Provincia de Lugo",
+              "name": "Hun",
+              "description": "town in Fezzan, Libya",
               "order": 7,
-              "adminLevel": 6,
-              "isoCode": "ES-LU",
-              "wikidataId": "Q95027",
-              "geonameId": 3117813
+              "adminLevel": 4,
+              "wikidataId": "Q1991249",
+              "geonameId": 2216645
             },
             {
-              "name": "Os Ancares",
-              "description": "comarca in the Galician province of Lugo, Spain",
+              "name": "Al Jufrah",
+              "description": "Libyan district",
+              "isoName": "Al Jufrah",
               "order": 8,
-              "adminLevel": 7,
-              "wikidataId": "Q603221"
-            },
-            {
-              "name": "Navia de Suarna",
-              "description": "municipality in the Galician province of Lugo, Spain",
-              "order": 11,
-              "adminLevel": 8,
-              "wikidataId": "Q1445393",
-              "geonameId": 3115550
-            },
-            {
-              "name": "A Ribeira, Navia de Suarna",
-              "order": 12,
-              "adminLevel": 9,
-              "wikidataId": "Q12381882"
+              "adminLevel": 4,
+              "isoCode": "LY-JU",
+              "wikidataId": "Q48247",
+              "geonameId": 2219944
             }
           ],
           "informative": [
             {
-              "name": "Europe",
-              "description": "continent in the Northern Hemisphere",
-              "isoName": "Europe",
+              "name": "Africa",
+              "description": "continent",
+              "isoName": "Africa",
               "order": 1,
-              "isoCode": "EU",
-              "wikidataId": "Q46",
-              "geonameId": 6255148
+              "isoCode": "AF",
+              "wikidataId": "Q15",
+              "geonameId": 6255146
             },
             {
-              "name": "Europe/Madrid",
+              "name": "Sahara",
+              "description": "desert on the African continent",
+              "order": 2,
+              "wikidataId": "Q6583",
+              "geonameId": 2212709
+            },
+            {
+              "name": "Maghreb",
+              "description": "part of North Africa",
+              "order": 3,
+              "wikidataId": "Q28227",
+              "geonameId": 2219875
+            },
+            {
+              "name": "Africa/Tripoli",
               "description": "time zone",
-              "order": 3
+              "order": 4
             },
             {
-              "name": "Iberian Peninsula",
-              "description": "peninsula located in the extreme southwest of Europe",
-              "order": 4,
-              "wikidataId": "Q12837",
-              "geonameId": 2267430
-            },
-            {
-              "name": "Ancares-Courel",
-              "description": "Special Area of Conservation of Ancares-Courel",
-              "order": 9,
-              "wikidataId": "Q61379028"
-            },
-            {
-              "name": "Os Ancares Lucenses y Montes de Cervantes, Navia y Becerrea Biosphere Reserve",
-              "order": 10,
-              "wikidataId": "Q16913071"
+              "name": "Fezzan",
+              "description": "historic region and former province of Libya",
+              "order": 6,
+              "wikidataId": "Q188258",
+              "geonameId": 2217514
             }
           ]
         }
       },
-      "date": "2025-02-11T19:20:49.510Z",
+      "date": "2025-02-11T19:42:25.832Z",
       "notes": "",
       "position": {
-        "lat": "43.020490786950774",
-        "lng": "-6.947548769857945"
+        "lat": "26.610500233529038",
+        "lng": "18.058797042284773"
       },
-      "emoji": "🇪🇸"
+      "emoji": "🇱🇾"
     },
     {
-      "id": "b5b1",
-      "cityName": "Fonsagrada",
+      "id": "af6a",
+      "cityName": "Guz̄arah",
       "country": {
-        "latitude": 43.05887216552155,
+        "latitude": 34.23593305705832,
         "lookupSource": "coordinates",
-        "longitude": -7.009654398043229,
+        "longitude": 62.00415008347758,
         "localityLanguageRequested": "en",
-        "continent": "Europe",
-        "continentCode": "EU",
-        "countryName": "Spain",
-        "countryCode": "ES",
-        "principalSubdivision": "Galicia",
-        "principalSubdivisionCode": "ES-GA",
-        "city": "Fonsagrada",
-        "locality": "Fonsagrada",
+        "continent": "Asia",
+        "continentCode": "AS",
+        "countryName": "Afghanistan",
+        "countryCode": "AF",
+        "principalSubdivision": "Herat",
+        "principalSubdivisionCode": "AF-HER",
+        "city": "Guz̄arah",
+        "locality": "Guz̄arah",
         "postcode": "",
-        "plusCode": "8CMJ3X5R+G4",
+        "plusCode": "8J6462P3+9M",
         "localityInfo": {
           "administrative": [
             {
-              "name": "Spain",
-              "description": "constitutional monarchy in Southwest Europe",
-              "isoName": "Spain",
-              "order": 2,
+              "name": "Afghanistan",
+              "description": "republic in South Asia",
+              "isoName": "Afghanistan",
+              "order": 3,
               "adminLevel": 2,
-              "isoCode": "ES",
-              "wikidataId": "Q29",
-              "geonameId": 2510769
+              "isoCode": "AF",
+              "wikidataId": "Q889",
+              "geonameId": 1149361
             },
             {
-              "name": "Galicia",
-              "description": "autonomous community of Spain",
-              "isoName": "Galicia",
-              "order": 5,
+              "name": "Herat",
+              "description": "province of Afghanistan",
+              "isoName": "Herat",
+              "order": 4,
               "adminLevel": 4,
-              "isoCode": "ES-GA",
-              "wikidataId": "Q3908",
-              "geonameId": 3336902
+              "isoCode": "AF-HER",
+              "wikidataId": "Q182844",
+              "geonameId": 1140025
             },
             {
-              "name": "North West",
+              "name": "Guz̄arah",
+              "description": "human settlement in Afghanistan",
+              "order": 5,
+              "adminLevel": 5,
+              "wikidataId": "Q16891965",
+              "geonameId": 7053046
+            },
+            {
+              "name": "Guzara District",
+              "description": "district in Herat Province, Afghanistan",
               "order": 6,
-              "adminLevel": 3
-            },
-            {
-              "name": "Provincia de Lugo",
-              "description": "province in Galicia, Spain",
-              "isoName": "Provincia de Lugo",
-              "order": 7,
-              "adminLevel": 6,
-              "isoCode": "ES-LU",
-              "wikidataId": "Q95027",
-              "geonameId": 3117813
-            },
-            {
-              "name": "Fonsagrada",
-              "order": 9,
-              "adminLevel": 8,
-              "wikidataId": "Q25510900",
-              "geonameId": 3122313
-            },
-            {
-              "name": "A Fonsagrada",
-              "description": "comarca of Spain",
-              "order": 10,
-              "adminLevel": 7,
-              "wikidataId": "Q437744"
-            },
-            {
-              "name": "A Fonsagrada",
-              "description": "municipality of Spain",
-              "order": 11,
-              "adminLevel": 8,
-              "wikidataId": "Q1465213",
-              "geonameId": 6359179
-            },
-            {
-              "name": "Vilabol de Suarna, A Fonsagrada",
-              "order": 12,
-              "adminLevel": 9,
-              "wikidataId": "Q9093975",
-              "geonameId": 3105745
+              "adminLevel": 5,
+              "wikidataId": "Q2714236",
+              "geonameId": 7053046
             }
           ],
           "informative": [
             {
-              "name": "Europe",
-              "description": "continent in the Northern Hemisphere",
-              "isoName": "Europe",
+              "name": "Asia",
+              "description": "continent",
+              "isoName": "Asia",
               "order": 1,
-              "isoCode": "EU",
-              "wikidataId": "Q46",
-              "geonameId": 6255148
+              "isoCode": "AS",
+              "wikidataId": "Q48",
+              "geonameId": 6255147
             },
             {
-              "name": "Europe/Madrid",
+              "name": "Asia/Kabul",
               "description": "time zone",
-              "order": 3
-            },
-            {
-              "name": "Iberian Peninsula",
-              "description": "peninsula located in the extreme southwest of Europe",
-              "order": 4,
-              "wikidataId": "Q12837",
-              "geonameId": 2267430
-            },
-            {
-              "name": "Rio Eo, Oscos y Terras de Buron",
-              "description": "Biosphere reserve in Spain | designated in 2007",
-              "order": 8,
-              "wikidataId": "Q22680879"
+              "order": 2
             }
           ]
         }
       },
-      "date": "2025-02-11T19:20:52.103Z",
+      "date": "2025-02-11T19:42:33.854Z",
       "notes": "",
       "position": {
-        "lat": "43.05887216552155",
-        "lng": "-7.009654398043229"
+        "lat": "34.23593305705832",
+        "lng": "62.00415008347758"
       },
-      "emoji": "🇪🇸"
+      "emoji": "🇦🇫"
     }
   ]
 }
