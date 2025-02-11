@@ -17,7 +17,6 @@ function CitiesContextPro({ children }) {
         const res = await fetch(`${BASE_URL}/cities`);
         const data = await res.json();
         setCities(data);
-        console.log(data);
       } catch (e) {
         console.log(e.message);
         setError(e.message);
@@ -43,9 +42,52 @@ function CitiesContextPro({ children }) {
     }
   }
 
+  async function createCity(newCity) {
+    // dispatch({ type: "loading" });
+    setLoading(true);
+    try {
+      const res = await fetch(`${BASE_URL}/cities/`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(newCity),
+      });
+      const data = await res.json();
+      console.log(data);
+      setLoading(false);
+      setCities([...cities, data]);
+    } catch (e) {
+      console.log(e.message);
+    }
+  }
+
+  async function deleteCity(id) {
+    try {
+      setLoading(true);
+      await fetch(`http://localhost:4000/cities/${id}`, {
+        method: "DELETE",
+      });
+
+      setCities((cities) => cities.filter((city) => city.id !== id));
+    } catch (error) {
+      console.error("Error deleting city:", error);
+    } finally {
+      setLoading(false);
+    }
+  }
+
   return (
     <CitiesContext.Provider
-      value={{ cities, loading, error, currentCity, getCity }}
+      value={{
+        cities,
+        loading,
+        error,
+        currentCity,
+        getCity,
+        deleteCity,
+        createCity,
+      }}
     >
       {children}
     </CitiesContext.Provider>

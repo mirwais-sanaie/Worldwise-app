@@ -7,7 +7,9 @@ import Button from "./Button";
 import ButtonBack from "./ButtonBack";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import { useSearchParams } from "react-router";
+import { useUrl } from "../hooks/useUrl";
+import { useCitiesContext } from "../contexts/CitiesContextPro";
+import { useNavigate } from "react-router";
 
 function convertToEmoji(countryCode) {
   const codePoints = countryCode
@@ -23,9 +25,9 @@ function Form() {
   const [date, setDate] = useState(new Date());
   const [notes, setNotes] = useState("");
   const [emoji, setEmoji] = useState("");
-  const [searchParams] = useSearchParams();
-  const lat = searchParams.get("lat");
-  const lng = searchParams.get("lng");
+  const [lat, lng] = useUrl();
+  const { createCity } = useCitiesContext();
+  const navigate = useNavigate();
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -40,7 +42,8 @@ function Form() {
       position: { lat, lng },
       emoji,
     };
-    console.log(newCity);
+    createCity(newCity);
+    navigate("/app/cities");
   }
 
   useEffect(
@@ -54,7 +57,6 @@ function Form() {
           setCountry(data);
           setEmoji(convertToEmoji(data.countryCode));
           setCityName(data.city ? data.city : data.countryName);
-          console.log(data);
         } catch (e) {
           console.log(e.message);
         }
