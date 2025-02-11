@@ -65,7 +65,7 @@ function CitiesContextPro({ children }) {
   async function deleteCity(id) {
     try {
       setLoading(true);
-      await fetch(`http://localhost:4000/cities/${id}`, {
+      await fetch(`${BASE_URL}/cities/${id}`, {
         method: "DELETE",
       });
 
