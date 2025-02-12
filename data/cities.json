@@ -1,52 +1,44 @@
 {
   "cities": [
     {
-      "id": "218a",
-      "cityName": "Hun",
+      "id": "e7d4",
+      "cityName": "Luxor",
       "country": {
-        "latitude": 26.610500233529038,
+        "latitude": 25.69653558808005,
         "lookupSource": "coordinates",
-        "longitude": 18.058797042284773,
+        "longitude": 32.61779248375947,
         "localityLanguageRequested": "en",
         "continent": "Africa",
         "continentCode": "AF",
-        "countryName": "Libya",
-        "countryCode": "LY",
-        "principalSubdivision": "Al Jufrah",
-        "principalSubdivisionCode": "LY-JU",
-        "city": "Hun",
-        "locality": "Hun",
+        "countryName": "Egypt",
+        "countryCode": "EG",
+        "principalSubdivision": "Luxor",
+        "principalSubdivisionCode": "EG-LX",
+        "city": "Luxor",
+        "locality": "Luxor",
         "postcode": "",
-        "plusCode": "7FRWJ365+6G",
+        "plusCode": "7GQJMJW9+J4",
         "localityInfo": {
           "administrative": [
             {
-              "name": "Libya",
-              "description": "sovereign state in North Africa",
-              "isoName": "Libya",
+              "name": "Egypt",
+              "description": "country in Africa and Asia",
+              "isoName": "Egypt",
               "order": 5,
               "adminLevel": 2,
-              "isoCode": "LY",
-              "wikidataId": "Q1016",
-              "geonameId": 2215636
+              "isoCode": "EG",
+              "wikidataId": "Q79",
+              "geonameId": 357994
             },
             {
-              "name": "Hun",
-              "description": "town in Fezzan, Libya",
-              "order": 7,
+              "name": "Luxor",
+              "description": "Egyptian governorate",
+              "isoName": "Luxor",
+              "order": 6,
               "adminLevel": 4,
-              "wikidataId": "Q1991249",
-              "geonameId": 2216645
-            },
-            {
-              "name": "Al Jufrah",
-              "description": "Libyan district",
-              "isoName": "Al Jufrah",
-              "order": 8,
-              "adminLevel": 4,
-              "isoCode": "LY-JU",
-              "wikidataId": "Q48247",
-              "geonameId": 2219944
+              "isoCode": "EG-LX",
+              "wikidataId": "Q30797",
+              "geonameId": 7603259
             }
           ],
           "informative": [
@@ -67,53 +59,150 @@
               "geonameId": 2212709
             },
             {
-              "name": "Maghreb",
-              "description": "part of North Africa",
+              "name": "Mashriq",
+              "description": "Eastern part of the Arab world",
               "order": 3,
-              "wikidataId": "Q28227",
-              "geonameId": 2219875
+              "wikidataId": "Q503282"
             },
             {
-              "name": "Africa/Tripoli",
+              "name": "Africa/Cairo",
               "description": "time zone",
               "order": 4
             },
             {
-              "name": "Fezzan",
-              "description": "historic region and former province of Libya",
-              "order": 6,
-              "wikidataId": "Q188258",
-              "geonameId": 2217514
+              "name": "Luxor",
+              "description": "city in Egypt",
+              "order": 7,
+              "wikidataId": "Q130514",
+              "geonameId": 360502
+            },
+            {
+              "name": "Thebes",
+              "description": "ancient Egyptian city",
+              "order": 8,
+              "wikidataId": "Q65821410",
+              "geonameId": 347342
+            },
+            {
+              "name": "Al Baairat Village",
+              "order": 9
             }
           ]
         }
       },
-      "date": "2025-02-11T19:42:25.832Z",
+      "date": "2025-02-12T11:51:08.556Z",
       "notes": "",
       "position": {
-        "lat": "26.610500233529038",
-        "lng": "18.058797042284773"
+        "lat": "25.69653558808005",
+        "lng": "32.61779248375947"
       },
-      "emoji": "🇱🇾"
+      "emoji": "🇪🇬"
     },
     {
-      "id": "af6a",
-      "cityName": "Guz̄arah",
+      "id": "134e",
+      "cityName": "Minya",
       "country": {
-        "latitude": 34.23593305705832,
+        "latitude": 28.067667331139297,
         "lookupSource": "coordinates",
-        "longitude": 62.00415008347758,
+        "longitude": 30.958758117727054,
+        "localityLanguageRequested": "en",
+        "continent": "Africa",
+        "continentCode": "AF",
+        "countryName": "Egypt",
+        "countryCode": "EG",
+        "principalSubdivision": "Muḩafazat al Minya",
+        "principalSubdivisionCode": "EG-MN",
+        "city": "Minya",
+        "locality": "Minya",
+        "postcode": "",
+        "plusCode": "7GWG3X95+3G",
+        "localityInfo": {
+          "administrative": [
+            {
+              "name": "Egypt",
+              "description": "country in Africa and Asia",
+              "isoName": "Egypt",
+              "order": 5,
+              "adminLevel": 2,
+              "isoCode": "EG",
+              "wikidataId": "Q79",
+              "geonameId": 357994
+            },
+            {
+              "name": "Muḩafazat al Minya",
+              "description": "Egyptian governorate",
+              "isoName": "Muḩafazat al Minya",
+              "order": 7,
+              "adminLevel": 4,
+              "isoCode": "EG-MN",
+              "wikidataId": "Q30675",
+              "geonameId": 360688
+            }
+          ],
+          "informative": [
+            {
+              "name": "Africa",
+              "description": "continent",
+              "isoName": "Africa",
+              "order": 1,
+              "isoCode": "AF",
+              "wikidataId": "Q15",
+              "geonameId": 6255146
+            },
+            {
+              "name": "Sahara",
+              "description": "desert on the African continent",
+              "order": 2,
+              "wikidataId": "Q6583",
+              "geonameId": 2212709
+            },
+            {
+              "name": "Mashriq",
+              "description": "Eastern part of the Arab world",
+              "order": 3,
+              "wikidataId": "Q503282"
+            },
+            {
+              "name": "Africa/Cairo",
+              "description": "time zone",
+              "order": 4
+            },
+            {
+              "name": "Minya",
+              "description": "city in Middle Egypt",
+              "order": 6,
+              "wikidataId": "Q310117",
+              "geonameId": 360686
+            }
+          ]
+        }
+      },
+      "date": "2025-02-12T11:51:13.719Z",
+      "notes": "",
+      "position": {
+        "lat": "28.067667331139297",
+        "lng": "30.958758117727054"
+      },
+      "emoji": "🇪🇬"
+    },
+    {
+      "id": "1928",
+      "cityName": "Kabul",
+      "country": {
+        "latitude": 34.54505608260097,
+        "lookupSource": "coordinates",
+        "longitude": 69.23767985645529,
         "localityLanguageRequested": "en",
         "continent": "Asia",
         "continentCode": "AS",
         "countryName": "Afghanistan",
         "countryCode": "AF",
-        "principalSubdivision": "Herat",
-        "principalSubdivisionCode": "AF-HER",
-        "city": "Guz̄arah",
-        "locality": "Guz̄arah",
+        "principalSubdivision": "Wilayat-e Kabul",
+        "principalSubdivisionCode": "AF-KAB",
+        "city": "Kabul",
+        "locality": "Kabul",
         "postcode": "",
-        "plusCode": "8J6462P3+9M",
+        "plusCode": "8J6FG6WQ+23",
         "localityInfo": {
           "administrative": [
             {
@@ -127,30 +216,35 @@
               "geonameId": 1149361
             },
             {
-              "name": "Herat",
+              "name": "Wilayat-e Kabul",
               "description": "province of Afghanistan",
-              "isoName": "Herat",
+              "isoName": "Wilayat-e Kabul",
               "order": 4,
               "adminLevel": 4,
-              "isoCode": "AF-HER",
-              "wikidataId": "Q182844",
-              "geonameId": 1140025
+              "isoCode": "AF-KAB",
+              "wikidataId": "Q188933",
+              "geonameId": 1138957
             },
             {
-              "name": "Guz̄arah",
-              "description": "human settlement in Afghanistan",
+              "name": "Kabul",
+              "description": "capital and the largest city of Afghanistan",
               "order": 5,
               "adminLevel": 5,
-              "wikidataId": "Q16891965",
-              "geonameId": 7053046
+              "wikidataId": "Q5838",
+              "geonameId": 1138958
             },
             {
-              "name": "Guzara District",
-              "description": "district in Herat Province, Afghanistan",
+              "name": "Kabul District",
+              "description": "district of Kabul Province, Afghanistan",
               "order": 6,
               "adminLevel": 5,
-              "wikidataId": "Q2714236",
-              "geonameId": 7053046
+              "wikidataId": "Q6344428",
+              "geonameId": 7729752
+            },
+            {
+              "name": "9th District",
+              "order": 7,
+              "adminLevel": 7
             }
           ],
           "informative": [
@@ -171,13 +265,234 @@
           ]
         }
       },
-      "date": "2025-02-11T19:42:33.854Z",
+      "date": "2025-02-12T11:51:48.064Z",
       "notes": "",
       "position": {
-        "lat": "34.23593305705832",
-        "lng": "62.00415008347758"
+        "lat": "34.54505608260097",
+        "lng": "69.23767985645529"
       },
       "emoji": "🇦🇫"
+    },
+    {
+      "id": "3960",
+      "cityName": "Lugo",
+      "country": {
+        "latitude": 43.02132442016645,
+        "lookupSource": "coordinates",
+        "longitude": -7.526937151443432,
+        "localityLanguageRequested": "en",
+        "continent": "Europe",
+        "continentCode": "EU",
+        "countryName": "Spain",
+        "countryCode": "ES",
+        "principalSubdivision": "Galicia",
+        "principalSubdivisionCode": "ES-GA",
+        "city": "Lugo",
+        "locality": "Lugo",
+        "postcode": "",
+        "plusCode": "8CMJ2FCF+G6",
+        "localityInfo": {
+          "administrative": [
+            {
+              "name": "Spain",
+              "description": "constitutional monarchy in Southwest Europe",
+              "isoName": "Spain",
+              "order": 2,
+              "adminLevel": 2,
+              "isoCode": "ES",
+              "wikidataId": "Q29",
+              "geonameId": 2510769
+            },
+            {
+              "name": "Galicia",
+              "description": "autonomous community of Spain",
+              "isoName": "Galicia",
+              "order": 5,
+              "adminLevel": 4,
+              "isoCode": "ES-GA",
+              "wikidataId": "Q3908",
+              "geonameId": 3336902
+            },
+            {
+              "name": "North West",
+              "order": 6,
+              "adminLevel": 3
+            },
+            {
+              "name": "Provincia de Lugo",
+              "description": "province in Galicia, Spain",
+              "isoName": "Provincia de Lugo",
+              "order": 7,
+              "adminLevel": 6,
+              "isoCode": "ES-LU",
+              "wikidataId": "Q95027",
+              "geonameId": 3117813
+            },
+            {
+              "name": "Lugo",
+              "description": "comarca in Lugo, Galicia, Spain",
+              "order": 9,
+              "adminLevel": 7,
+              "wikidataId": "Q1069100"
+            },
+            {
+              "name": "Lugo",
+              "description": "municipality in Lugo Province, Galicia, Spain",
+              "order": 10,
+              "adminLevel": 8,
+              "wikidataId": "Q11125",
+              "geonameId": 3117814
+            },
+            {
+              "name": "Pedreda, Lugo",
+              "order": 11,
+              "adminLevel": 9,
+              "wikidataId": "Q12397369"
+            }
+          ],
+          "informative": [
+            {
+              "name": "Europe",
+              "description": "continent in the Northern Hemisphere",
+              "isoName": "Europe",
+              "order": 1,
+              "isoCode": "EU",
+              "wikidataId": "Q46",
+              "geonameId": 6255148
+            },
+            {
+              "name": "Europe/Madrid",
+              "description": "time zone",
+              "order": 3
+            },
+            {
+              "name": "Iberian Peninsula",
+              "description": "peninsula located in the extreme southwest of Europe",
+              "order": 4,
+              "wikidataId": "Q12837",
+              "geonameId": 2267430
+            },
+            {
+              "name": "Terras do Mino",
+              "description": "UNESCO Biosphere Reserve",
+              "order": 8,
+              "wikidataId": "Q20102034"
+            }
+          ]
+        }
+      },
+      "date": "2025-02-12T12:14:02.186Z",
+      "notes": "",
+      "position": {
+        "lat": "43.02132442016645",
+        "lng": "-7.526937151443432"
+      },
+      "emoji": "🇪🇸"
+    },
+    {
+      "id": "d211",
+      "cityName": "Almeirim",
+      "country": {
+        "latitude": 39.15737086614032,
+        "lookupSource": "coordinates",
+        "longitude": -8.64779093499927,
+        "localityLanguageRequested": "en",
+        "continent": "Europe",
+        "continentCode": "EU",
+        "countryName": "Portugal",
+        "countryCode": "PT",
+        "principalSubdivision": "Distrito de Santarem",
+        "principalSubdivisionCode": "PT-14",
+        "city": "Almeirim",
+        "locality": "Almeirim",
+        "postcode": "",
+        "plusCode": "8CFH5942+WV",
+        "localityInfo": {
+          "administrative": [
+            {
+              "name": "Portugal",
+              "description": "country in Southwestern Europe",
+              "isoName": "Portugal",
+              "order": 3,
+              "adminLevel": 2,
+              "isoCode": "PT",
+              "wikidataId": "Q45",
+              "geonameId": 2264397
+            },
+            {
+              "name": "Distrito de Santarem",
+              "description": "district in Centro Region, Portugal",
+              "isoName": "Distrito de Santarem",
+              "order": 7,
+              "adminLevel": 6,
+              "isoCode": "PT-14",
+              "wikidataId": "Q244510",
+              "geonameId": 2263478
+            },
+            {
+              "name": "Almeirim",
+              "description": "municipality and city in Portugal",
+              "order": 9,
+              "adminLevel": 7,
+              "wikidataId": "Q841235",
+              "geonameId": 8010596
+            },
+            {
+              "name": "Almeirim",
+              "order": 10,
+              "adminLevel": 8
+            }
+          ],
+          "informative": [
+            {
+              "name": "Europe",
+              "description": "continent in the Northern Hemisphere",
+              "isoName": "Europe",
+              "order": 1,
+              "isoCode": "EU",
+              "wikidataId": "Q46",
+              "geonameId": 6255148
+            },
+            {
+              "name": "Iberian Peninsula",
+              "description": "peninsula located in the extreme southwest of Europe",
+              "order": 2,
+              "wikidataId": "Q12837",
+              "geonameId": 2267430
+            },
+            {
+              "name": "Europe/Lisbon",
+              "description": "time zone",
+              "order": 4
+            },
+            {
+              "name": "Continental Portugal",
+              "description": "mainland Portugal",
+              "order": 5,
+              "wikidataId": "Q2915956"
+            },
+            {
+              "name": "Alentejo region",
+              "description": "NUTS II designated region of Portugal",
+              "order": 6,
+              "wikidataId": "Q26824"
+            },
+            {
+              "name": "Leziria do Tejo Subregion",
+              "description": "NUTS 3 subregion of Portugal",
+              "order": 8,
+              "wikidataId": "Q1501301"
+            }
+          ]
+        }
+      },
+      "date": "2025-02-12T12:14:07.626Z",
+      "notes": "",
+      "position": {
+        "lat": "39.15737086614032",
+        "lng": "-8.64779093499927"
+      },
+      "emoji": "🇵🇹"
     }
   ]
 }
