@@ -274,122 +274,6 @@
       "emoji": "🇦🇫"
     },
     {
-      "id": "3960",
-      "cityName": "Lugo",
-      "country": {
-        "latitude": 43.02132442016645,
-        "lookupSource": "coordinates",
-        "longitude": -7.526937151443432,
-        "localityLanguageRequested": "en",
-        "continent": "Europe",
-        "continentCode": "EU",
-        "countryName": "Spain",
-        "countryCode": "ES",
-        "principalSubdivision": "Galicia",
-        "principalSubdivisionCode": "ES-GA",
-        "city": "Lugo",
-        "locality": "Lugo",
-        "postcode": "",
-        "plusCode": "8CMJ2FCF+G6",
-        "localityInfo": {
-          "administrative": [
-            {
-              "name": "Spain",
-              "description": "constitutional monarchy in Southwest Europe",
-              "isoName": "Spain",
-              "order": 2,
-              "adminLevel": 2,
-              "isoCode": "ES",
-              "wikidataId": "Q29",
-              "geonameId": 2510769
-            },
-            {
-              "name": "Galicia",
-              "description": "autonomous community of Spain",
-              "isoName": "Galicia",
-              "order": 5,
-              "adminLevel": 4,
-              "isoCode": "ES-GA",
-              "wikidataId": "Q3908",
-              "geonameId": 3336902
-            },
-            {
-              "name": "North West",
-              "order": 6,
-              "adminLevel": 3
-            },
-            {
-              "name": "Provincia de Lugo",
-              "description": "province in Galicia, Spain",
-              "isoName": "Provincia de Lugo",
-              "order": 7,
-              "adminLevel": 6,
-              "isoCode": "ES-LU",
-              "wikidataId": "Q95027",
-              "geonameId": 3117813
-            },
-            {
-              "name": "Lugo",
-              "description": "comarca in Lugo, Galicia, Spain",
-              "order": 9,
-              "adminLevel": 7,
-              "wikidataId": "Q1069100"
-            },
-            {
-              "name": "Lugo",
-              "description": "municipality in Lugo Province, Galicia, Spain",
-              "order": 10,
-              "adminLevel": 8,
-              "wikidataId": "Q11125",
-              "geonameId": 3117814
-            },
-            {
-              "name": "Pedreda, Lugo",
-              "order": 11,
-              "adminLevel": 9,
-              "wikidataId": "Q12397369"
-            }
-          ],
-          "informative": [
-            {
-              "name": "Europe",
-              "description": "continent in the Northern Hemisphere",
-              "isoName": "Europe",
-              "order": 1,
-              "isoCode": "EU",
-              "wikidataId": "Q46",
-              "geonameId": 6255148
-            },
-            {
-              "name": "Europe/Madrid",
-              "description": "time zone",
-              "order": 3
-            },
-            {
-              "name": "Iberian Peninsula",
-              "description": "peninsula located in the extreme southwest of Europe",
-              "order": 4,
-              "wikidataId": "Q12837",
-              "geonameId": 2267430
-            },
-            {
-              "name": "Terras do Mino",
-              "description": "UNESCO Biosphere Reserve",
-              "order": 8,
-              "wikidataId": "Q20102034"
-            }
-          ]
-        }
-      },
-      "date": "2025-02-12T12:14:02.186Z",
-      "notes": "",
-      "position": {
-        "lat": "43.02132442016645",
-        "lng": "-7.526937151443432"
-      },
-      "emoji": "🇪🇸"
-    },
-    {
       "id": "d211",
       "cityName": "Almeirim",
       "country": {
@@ -493,6 +377,138 @@
         "lng": "-8.64779093499927"
       },
       "emoji": "🇵🇹"
+    },
+    {
+      "id": "1bd7",
+      "cityName": "Fonsagrada",
+      "country": {
+        "latitude": 43.022728873428576,
+        "lookupSource": "coordinates",
+        "longitude": -7.041561718283792,
+        "localityLanguageRequested": "en",
+        "continent": "Europe",
+        "continentCode": "EU",
+        "countryName": "Spain",
+        "countryCode": "ES",
+        "principalSubdivision": "Galicia",
+        "principalSubdivisionCode": "ES-GA",
+        "city": "Fonsagrada",
+        "locality": "Navia de Suarna",
+        "postcode": "",
+        "plusCode": "8CMJ2XF5+39",
+        "localityInfo": {
+          "administrative": [
+            {
+              "name": "Spain",
+              "description": "constitutional monarchy in Southwest Europe",
+              "isoName": "Spain",
+              "order": 2,
+              "adminLevel": 2,
+              "isoCode": "ES",
+              "wikidataId": "Q29",
+              "geonameId": 2510769
+            },
+            {
+              "name": "Galicia",
+              "description": "autonomous community of Spain",
+              "isoName": "Galicia",
+              "order": 5,
+              "adminLevel": 4,
+              "isoCode": "ES-GA",
+              "wikidataId": "Q3908",
+              "geonameId": 3336902
+            },
+            {
+              "name": "North West",
+              "order": 6,
+              "adminLevel": 3
+            },
+            {
+              "name": "Provincia de Lugo",
+              "description": "province in Galicia, Spain",
+              "isoName": "Provincia de Lugo",
+              "order": 7,
+              "adminLevel": 6,
+              "isoCode": "ES-LU",
+              "wikidataId": "Q95027",
+              "geonameId": 3117813
+            },
+            {
+              "name": "Fonsagrada",
+              "order": 9,
+              "adminLevel": 8,
+              "wikidataId": "Q25510900",
+              "geonameId": 3122313
+            },
+            {
+              "name": "A Fonsagrada",
+              "description": "comarca of Spain",
+              "order": 10,
+              "adminLevel": 7,
+              "wikidataId": "Q437744"
+            },
+            {
+              "name": "Navia de Suarna",
+              "description": "municipality in the Galician province of Lugo, Spain",
+              "order": 11,
+              "adminLevel": 8,
+              "wikidataId": "Q1445393",
+              "geonameId": 3115550
+            },
+            {
+              "name": "A Fonsagrada",
+              "description": "municipality of Spain",
+              "order": 12,
+              "adminLevel": 8,
+              "wikidataId": "Q1465213",
+              "geonameId": 6359179
+            },
+            {
+              "name": "San Martin de Arroxo",
+              "order": 13,
+              "adminLevel": 9,
+              "wikidataId": "Q8204954",
+              "geonameId": 3129389
+            }
+          ],
+          "informative": [
+            {
+              "name": "Europe",
+              "description": "continent in the Northern Hemisphere",
+              "isoName": "Europe",
+              "order": 1,
+              "isoCode": "EU",
+              "wikidataId": "Q46",
+              "geonameId": 6255148
+            },
+            {
+              "name": "Europe/Madrid",
+              "description": "time zone",
+              "order": 3
+            },
+            {
+              "name": "Iberian Peninsula",
+              "description": "peninsula located in the extreme southwest of Europe",
+              "order": 4,
+              "wikidataId": "Q12837",
+              "geonameId": 2267430
+            },
+            {
+              "name": "Rio Eo, Oscos y Terras de Buron",
+              "description": "Biosphere reserve in Spain | designated in 2007",
+              "order": 8,
+              "wikidataId": "Q22680879"
+            }
+          ]
+        }
+      },
+      "date": "2025-02-14T20:25:37.293Z",
+      "notes": "",
+      "position": {
+        "lat": "43.022728873428576",
+        "lng": "-7.041561718283792"
+      },
+      "emoji": "🇪🇸"
     }
   ]
 }

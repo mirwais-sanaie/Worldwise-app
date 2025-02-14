@@ -1,4 +1,10 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 
 const CitiesContext = createContext();
 
@@ -27,20 +33,24 @@ function CitiesContextPro({ children }) {
     getCities();
   }, []);
 
-  async function getCity(id) {
-    setLoading(true);
-    try {
-      const res = await fetch(`${BASE_URL}/cities/${id}`);
-      const data = await res.json();
-      setCurrentCity(data);
-      console.log(data);
-    } catch (e) {
-      console.log(e.message);
-      setError(e.message);
-    } finally {
-      setLoading(false);
-    }
-  }
+  const getCity = useCallback(
+    () =>
+      async function getCity(id) {
+        setLoading(true);
+        try {
+          const res = await fetch(`${BASE_URL}/cities/${id}`);
+          const data = await res.json();
+          setCurrentCity(data);
+          console.log(data);
+        } catch (e) {
+          console.log(e.message);
+          setError(e.message);
+        } finally {
+          setLoading(false);
+        }
+      },
+    []
+  );
 
   async function createCity(newCity) {
     // dispatch({ type: "loading" });
